@@ -1,4 +1,4 @@
-# >� DuckPong - Pong in Pure SQL
+# DuckPong - Pong in Pure SQL
 
 **A fully functional Pong game where ALL game logic runs in SQL queries.**
 
@@ -8,7 +8,8 @@
 
 ## What Is This?
 
-DuckPong is a playable Pong game where the entire game enginephysics, AI, collision detection, scoringis implemented as **a single SQL query** that runs every frame. No Python game logic. Just SQL.
+DuckPong is a playable Pong game where the entire game engine/physics, AI, collision detection, scoring
+is implemented as **a single SQL query** that runs every frame. No Python game logic. Just SQL.
 
 ```sql
 -- Yes, this actually works!
