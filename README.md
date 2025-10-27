@@ -31,7 +31,7 @@ It demonstrates:
 - **SQL's expressiveness**: CTEs elegantly model game state transitions
 - **Creative coding**: Sometimes the most interesting projects emerge from constraints
 
-Plus, watching two AI players battle it out in pure SQL is oddly mesmerizing. >�
+Plus, watching two AI players battle it out in pure SQL is oddly mesmerizing.
 
 ## Quick Start
 
@@ -169,8 +169,8 @@ Each section has detailed comments explaining not just *what* the code does, but
 
 - **~500 lines** of code (with comments)
 - **1 SQL query** runs the entire game each frame
-- **6 CTEs** elegantly separate concerns (AI � Physics � Collisions � Scoring)
-- **92% AI accuracy** creates balanced gameplay
+- **6 CTEs** elegantly separate concerns (AI, Physics, Collisions, Scoring)
+- **92% 'AI' accuracy** creates balanced gameplay
 - **5 ball angles** just like the original Pong (1972)
 
 ## Is This Practical?
@@ -209,4 +209,4 @@ Built with DuckDB, a fast and versatile analytical database perfect for this kin
 
 ---
 
-*"Can it run Pong?" Yes. Yes it can. In SQL.*
+*"Can it run Pong?" Yes it can. In SQL.*
