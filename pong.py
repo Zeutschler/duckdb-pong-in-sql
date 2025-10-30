@@ -378,7 +378,7 @@ def main(stdscr):
             draw_digit(stdscr, int(digit_char), 1, 43 + (i * 4), curses.color_pair(1))
 
         # Info text directly below the playing field - DuckPong title in yellow
-        info_text = "DuckPong - DuckDB playing Pong against itself (in SQL) - SQL is fun!"
+        info_text = "DuckPong - SQL engine playing Pong against itself (in SQL). Enjoy..."
         try:
             stdscr.addstr(25, 0, info_text, curses.color_pair(4))
         except curses.error:
